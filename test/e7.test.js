@@ -26,7 +26,7 @@ describe('onReject function test', () => {
     expect(logSpy).toBeCalledWith('OH NOES');
   });
 
-  it('Shoule log the error message Test 2', () => {
+  it('Should log the error message Test 2', () => {
     const logSpy = vitest.spyOn(console, "log");
     onReject(new Error('REJECTED'));
     expect(logSpy).toBeCalledWith('REJECTED');

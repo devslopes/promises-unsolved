@@ -19,7 +19,7 @@
  *          }
  */
 
-// Your code goes here...
+
 export function parsePromised() {
   // Your code goes here...
 
@@ -33,7 +33,7 @@ export function parsePromised() {
  * * logs the message property of the error object
  */
 
-// Your code goes here...
+
 export function onReject() {
   // Your code goes here...
 
@@ -51,7 +51,7 @@ export function onReject() {
  * Example: export const promiseHandler = () => return <your code> 
  */
 
-// Your code goes here...
+
 export const handlePromise = () => {
   // Your code goes here...
 }
